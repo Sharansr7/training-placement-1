@@ -9,7 +9,7 @@ public class DuplicateWords {
         String regex = "\\b(\\w+)(\\b\\W+\\b\\1\\b)*";
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
-        Scanner in = new Scanner(System.in);
+         Scanner in = new Scanner(System.in);
         int numSentences = Integer.parseInt(in.nextLine());
 
         while (numSentences-- > 0) {
